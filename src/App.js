@@ -15,7 +15,7 @@ import EditarProyecto from './components/proyectos/EditarProyectos';
 import Tareas from './components/tareas/Tareas';
 import NuevaTarea from './components/tareas/NuevaTarea';
 import EditarTarea from './components/tareas/EditarTarea';
-
+import Reportes from './components/reportes/Reporte';
 
 
 function App () {
@@ -37,7 +37,7 @@ function App () {
               <Route path="/tareas" element={<Tareas/>}/>
               <Route path="/tareas/nueva" element={<NuevaTarea/>}/>
               <Route path="/tareas/editar/:_id" element={<EditarTarea/>}/>
-              
+              <Route path="/reporte" element={<Reportes/>}/>
             </Routes>
           </main>
         </div>

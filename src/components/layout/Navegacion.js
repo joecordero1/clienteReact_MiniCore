@@ -6,7 +6,7 @@ const Navegacion = () => {
         <aside className="sidebar col-3">
             <h2>Administrar</h2>
             <nav className="navegacion">
-                
+                {<Link to={"/reporte"} className="reportes">Reportes</Link>}
                 {<Link to={"/"} className="empleados">Empleados</Link>}
                 {<Link to={"/Proyectos"} className="proyectos">Proyectos</Link>}
                 {<Link to={"/Tareas"} className="tareas">Tareas</Link>}
